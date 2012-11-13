@@ -7,13 +7,13 @@
 #
 
 class AppDelegate
-    def applicationDidFinishLaunching(a_notification)
-        @listener = NotificationServer.new
-        @listener.listen
-    end
+  def applicationDidFinishLaunching notif
+    @listener = NotificationServer.new
+    @listener.listen
+  end
     
-    def applicationWillTerminate aNotification
-        @listener.cleanup
-        end
+  def applicationWillTerminate notif
+    @listener.cleanup
+  end
 end
 
