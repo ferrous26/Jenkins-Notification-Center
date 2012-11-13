@@ -14,6 +14,8 @@
 		AFCD6D1916521A69005A3F30 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1716521A69005A3F30 /* MainMenu.xib */; };
 		AFCD6D1C16521A69005A3F30 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1B16521A69005A3F30 /* rb_main.rb */; };
 		AFCD6D1E16521A69005A3F30 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */; };
+		AFCD6D2816521AA7005A3F30 /* NotificationCenter.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D2716521AA7005A3F30 /* NotificationCenter.rb */; };
+		AFCD6D2A16521C8A005A3F30 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D2916521C8A005A3F30 /* logo.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		AFCD6D1816521A69005A3F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AFCD6D1B16521A69005A3F30 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		AFCD6D2716521AA7005A3F30 /* NotificationCenter.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = NotificationCenter.rb; sourceTree = "<group>"; };
+		AFCD6D2916521C8A005A3F30 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = logo.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		AFCD6CFA16521A69005A3F30 = {
 			isa = PBXGroup;
 			children = (
+				AFCD6D2916521C8A005A3F30 /* logo.icns */,
 				AFCD6D0D16521A69005A3F30 /* Jenkins Notifier */,
 				AFCD6D0516521A69005A3F30 /* Frameworks */,
 				AFCD6D0416521A69005A3F30 /* Products */,
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */,
+				AFCD6D2716521AA7005A3F30 /* NotificationCenter.rb */,
 				AFCD6D1616521A69005A3F30 /* Resources */,
 				AFCD6D1A16521A69005A3F30 /* Other Sources */,
 				AFCD6D0E16521A69005A3F30 /* Supporting Files */,
@@ -189,6 +195,8 @@
 				AFCD6D1916521A69005A3F30 /* MainMenu.xib in Resources */,
 				AFCD6D1C16521A69005A3F30 /* rb_main.rb in Resources */,
 				AFCD6D1E16521A69005A3F30 /* AppDelegate.rb in Resources */,
+				AFCD6D2816521AA7005A3F30 /* NotificationCenter.rb in Resources */,
+				AFCD6D2A16521C8A005A3F30 /* logo.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
