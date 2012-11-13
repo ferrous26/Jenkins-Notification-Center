@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCD6D0716521A69005A3F30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCD6D0616521A69005A3F30 /* Cocoa.framework */; };
+		AFCD6D0916521A69005A3F30 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCD6D0816521A69005A3F30 /* MacRuby.framework */; };
+		AFCD6D1216521A69005A3F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1016521A69005A3F30 /* InfoPlist.strings */; };
+		AFCD6D1416521A69005A3F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD6D1316521A69005A3F30 /* main.m */; };
+		AFCD6D1916521A69005A3F30 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1716521A69005A3F30 /* MainMenu.xib */; };
+		AFCD6D1C16521A69005A3F30 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1B16521A69005A3F30 /* rb_main.rb */; };
+		AFCD6D1E16521A69005A3F30 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCD6D0B16521A69005A3F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCD6CFB16521A69005A3F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCD6D0216521A69005A3F30;
+			remoteInfo = "Jenkins Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFCD6D0316521A69005A3F30 /* Jenkins Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jenkins Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCD6D0616521A69005A3F30 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFCD6D0816521A69005A3F30 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		AFCD6D0F16521A69005A3F30 /* Jenkins Notifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jenkins Notifier-Info.plist"; sourceTree = "<group>"; };
+		AFCD6D1116521A69005A3F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFCD6D1316521A69005A3F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFCD6D1516521A69005A3F30 /* Jenkins Notifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jenkins Notifier-Prefix.pch"; sourceTree = "<group>"; };
+		AFCD6D1816521A69005A3F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AFCD6D1B16521A69005A3F30 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCD6D0016521A69005A3F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD6D0716521A69005A3F30 /* Cocoa.framework in Frameworks */,
+				AFCD6D0916521A69005A3F30 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCD6CFA16521A69005A3F30 = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D0D16521A69005A3F30 /* Jenkins Notifier */,
+				AFCD6D0516521A69005A3F30 /* Frameworks */,
+				AFCD6D0416521A69005A3F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCD6D0416521A69005A3F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D0316521A69005A3F30 /* Jenkins Notifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCD6D0516521A69005A3F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D0616521A69005A3F30 /* Cocoa.framework */,
+				AFCD6D0816521A69005A3F30 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFCD6D0D16521A69005A3F30 /* Jenkins Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D1D16521A69005A3F30 /* AppDelegate.rb */,
+				AFCD6D1616521A69005A3F30 /* Resources */,
+				AFCD6D1A16521A69005A3F30 /* Other Sources */,
+				AFCD6D0E16521A69005A3F30 /* Supporting Files */,
+			);
+			path = "Jenkins Notifier";
+			sourceTree = "<group>";
+		};
+		AFCD6D0E16521A69005A3F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D0F16521A69005A3F30 /* Jenkins Notifier-Info.plist */,
+				AFCD6D1016521A69005A3F30 /* InfoPlist.strings */,
+				AFCD6D1316521A69005A3F30 /* main.m */,
+				AFCD6D1516521A69005A3F30 /* Jenkins Notifier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFCD6D1616521A69005A3F30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D1716521A69005A3F30 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AFCD6D1A16521A69005A3F30 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD6D1B16521A69005A3F30 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AFCD6D0A16521A69005A3F30 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = AFCD6D2416521A69005A3F30 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				AFCD6D0C16521A69005A3F30 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		AFCD6D0216521A69005A3F30 /* Jenkins Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCD6D2116521A69005A3F30 /* Build configuration list for PBXNativeTarget "Jenkins Notifier" */;
+			buildPhases = (
+				AFCD6CFF16521A69005A3F30 /* Sources */,
+				AFCD6D0016521A69005A3F30 /* Frameworks */,
+				AFCD6D0116521A69005A3F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jenkins Notifier";
+			productName = "Jenkins Notifier";
+			productReference = AFCD6D0316521A69005A3F30 /* Jenkins Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCD6CFB16521A69005A3F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ferrous26;
+			};
+			buildConfigurationList = AFCD6CFE16521A69005A3F30 /* Build configuration list for PBXProject "Jenkins Notifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCD6CFA16521A69005A3F30;
+			productRefGroup = AFCD6D0416521A69005A3F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCD6D0216521A69005A3F30 /* Jenkins Notifier */,
+				AFCD6D0A16521A69005A3F30 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCD6D0116521A69005A3F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD6D1216521A69005A3F30 /* InfoPlist.strings in Resources */,
+				AFCD6D1916521A69005A3F30 /* MainMenu.xib in Resources */,
+				AFCD6D1C16521A69005A3F30 /* rb_main.rb in Resources */,
+				AFCD6D1E16521A69005A3F30 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCD6CFF16521A69005A3F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD6D1416521A69005A3F30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCD6D0C16521A69005A3F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCD6D0216521A69005A3F30 /* Jenkins Notifier */;
+			targetProxy = AFCD6D0B16521A69005A3F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFCD6D1016521A69005A3F30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCD6D1116521A69005A3F30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFCD6D1716521A69005A3F30 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCD6D1816521A69005A3F30 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCD6D1F16521A69005A3F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFCD6D2016521A69005A3F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFCD6D2216521A69005A3F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/mrada/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode46-DP2.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jenkins Notifier/Jenkins Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Jenkins Notifier/Jenkins Notifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFCD6D2316521A69005A3F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/mrada/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode46-DP2.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jenkins Notifier/Jenkins Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Jenkins Notifier/Jenkins Notifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFCD6D2516521A69005A3F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AFCD6D2616521A69005A3F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCD6CFE16521A69005A3F30 /* Build configuration list for PBXProject "Jenkins Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD6D1F16521A69005A3F30 /* Debug */,
+				AFCD6D2016521A69005A3F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCD6D2116521A69005A3F30 /* Build configuration list for PBXNativeTarget "Jenkins Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD6D2216521A69005A3F30 /* Debug */,
+				AFCD6D2316521A69005A3F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFCD6D2416521A69005A3F30 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD6D2516521A69005A3F30 /* Debug */,
+				AFCD6D2616521A69005A3F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCD6CFB16521A69005A3F30 /* Project object */;
+}
